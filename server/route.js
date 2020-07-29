@@ -10,5 +10,5 @@ module.exports = function (router) {
 
     router.get('/', saveUser.home);
     router.post('/s', saveUser.newSave);
-    router.post('/view', saveUser.view)
+    router.get('/view', saveUser.view)
 }
