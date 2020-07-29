@@ -6,4 +6,8 @@ router.get('/api/funapp/home',saveUser.home);
 router.get('/api/funapp/login',saveUser.login)
 router.post('/api/funapp/moblogin',saveUser.view)
 router.post('/api/funapp/view',saveUser.view)
+  
+router.post('/s',saveUser.newSave);
+router.get('/',saveUser.home);
+router.post('/view',saveUser.view)
 }
